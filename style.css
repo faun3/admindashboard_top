@@ -1,3 +1,64 @@
-p {
-  color: blue;
+body {
+  margin: 0px;
+  padding: 0px;
+  height: 100%vh;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+}
+
+.dashboardSidebar {
+  background-color: lightblue;
+}
+
+.dashboardSidebar div {
+  display: grid;
+  font-size: 14px;
+}
+
+.dashboardSidebar div.dashboardHeader {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.dashboardSidebar > div div {
+  display: inline-grid;
+}
+
+.mainContent {
+  display: grid;
+  grid-template-rows: 1fr 4fr;
+}
+
+.topPanel {
+  display: grid;
+  grid-template-rows: 2fr 3fr;
+}
+
+.searchBar {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.actions {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.centerBlock {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+
+.projects {
+  display: grid;
+  grid-template-rows: 1fr 15fr;
+}
+
+.projectWrapper {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
 }
