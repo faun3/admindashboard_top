@@ -1,3 +1,16 @@
-p {
-  color: blue;
+body {
+  margin: 0px;
+  padding: 0;
+}
+
+.content {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+}
+
+.sidebar {
+  background-color: lightblue;
+  display: flex;
+  flex-flow: column nowrap;
 }
