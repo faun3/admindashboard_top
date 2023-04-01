@@ -1,3 +1,7 @@
+html{
+  width: 100vw;
+  height: 100vh;
+}
 
 body {
   margin: 0px;
@@ -8,8 +12,6 @@ body {
   display: grid;
   grid-template-columns: 1fr 4fr;
   border: 1px black;
-  height: 100vh;
-  width: 100vw;
 }
 
 .sidebar {
@@ -46,6 +48,11 @@ body {
   grid-template-rows: 1fr 4fr;
 }
 
+.dashTop{
+  display: grid;
+  grid-template-rows: 2fr 3fr;
+}
+
 .search{
   display: inline-grid;
   padding: 5%;
@@ -54,4 +61,15 @@ body {
   grid-template-columns: 1fr 10fr 1fr 1fr 2fr;
   align-items: center;
   gap: 2%;
+}
+
+.search div{
+  border-color: gray;
+  min-width: 1px;
+  background-color: gray;
+  border-radius: 10px;
+}
+
+.search .icon{
+  fill: orange;
 }
