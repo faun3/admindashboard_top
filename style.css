@@ -5,10 +5,11 @@ body {
 }
 
 .content {
-  height: 100vh;
   display: grid;
   grid-template-columns: 1fr 4fr;
   border: 1px black;
+  height: 100vh;
+  width: 100vw;
 }
 
 .sidebar {
@@ -38,4 +39,19 @@ body {
 .sidebar > div.sidebarHeader{
   font-size: 16px;
   font-weight: bold;
+}
+
+.dash{
+  display: grid;
+  grid-template-rows: 1fr 4fr;
+}
+
+.search{
+  display: inline-grid;
+  padding: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
+  grid-template-columns: 1fr 10fr 1fr 1fr 2fr;
+  align-items: center;
+  gap: 2%;
 }
