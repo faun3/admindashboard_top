@@ -12,16 +12,30 @@ body {
 }
 
 .sidebar {
-  background-color: lightblue;
+  background-color: rgb(24, 100, 126);
   display: grid;
+  padding: 5%;
 }
 
 .sidebar > div{
   display: inline-grid;
   grid-template-columns: 1fr 3fr;
+  color: white;
+  align-content: center;
+  padding: 0;
+  margin: 0;
+  gap: 5%;
 }
 
 .sidebar > div > svg{
   color: white;
   fill: white;
+  align-self: center;
+  margin: 10%;
+  padding-right: 5%;
+}
+
+.sidebar > div.sidebarHeader{
+  font-size: 16px;
+  font-weight: bold;
 }
