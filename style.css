@@ -20,3 +20,8 @@ body {
   display: inline-grid;
   grid-template-columns: 1fr 3fr;
 }
+
+.sidebar > div > svg{
+  color: white;
+  fill: white;
+}
