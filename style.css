@@ -52,6 +52,8 @@ body{
 .dash{
   display: grid;
   grid-template-rows: 1fr 4fr;
+  min-width: 0;
+  min-height: 0;
 }
 
 .dashTop{
@@ -137,17 +139,26 @@ body{
 }
 
 .dashBody{
-  padding: 5%;
   background-color: #EAD9F8;
   display: grid;
   grid-template-columns: 3fr 1fr;
+  padding-left: 5%;
+  padding-bottom: 5%;
+  min-height: 0;
+  min-width: 0;
+}
+
+.projects{
+  padding-bottom: 5%;
 }
 
 .projCardContainer{
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
   gap: 15px;
+  min-width: 0;
+  min-height: 0;
 }
 
 .card{
@@ -157,6 +168,8 @@ body{
   border-left-style: solid;
   border-left-color: goldenrod;
   border-left-width: 6px;
+  min-height: 0;
+  overflow: hidden;
 }
 
 .card p{
