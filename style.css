@@ -74,6 +74,7 @@ body{
   min-width: 1px;
   background-color: lightgray;
   border-radius: 10px;
+  height: 35%;
   grid-column: 2/ span 10;
 }
 
