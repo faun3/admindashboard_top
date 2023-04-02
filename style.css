@@ -53,6 +53,7 @@ body{
 .dashTop{
   display: grid;
   grid-template-rows: 2fr 3fr;
+  box-shadow: 0 10px black;
 }
 
 .search{
