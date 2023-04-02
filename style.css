@@ -132,5 +132,19 @@ body{
 }
 
 .dashBody{
+  padding: 5%;
   background-color: #EAD9F8;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+
+.projCardContainer{
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+
+.card{
+  background-color: ivory;
 }
