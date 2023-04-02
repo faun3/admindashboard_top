@@ -148,4 +148,11 @@ body{
 
 .card{
   background-color: ivory;
+  border-radius: 2%;
+  display: grid;
+  grid-template-rows: 3fr 2fr;
+  padding-left: 5%;
+  border-left-style: solid;
+  border-left-color: goldenrod;
+  border-left-width: 6px;
 }
