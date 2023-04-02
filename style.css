@@ -82,25 +82,24 @@ body{
   fill: orange;
 }
 
+.search p{
+  grid-column: 14 / span 2;
+}
+
 .greetPlus{
   display: inline-grid;
   grid-template-columns: 1fr 2fr;
   justify-items: space-between;
   padding-right: 5%;
+  padding-left: 5%;
   height: 100px;
 }
 
 .greet{
-  display: flex;
-  flex-flow: row nowrap;
-  justify-self: left;
-  align-self: left;
-  align-content: center;
-}
-
-.greet svg{
-  max-width: 25%;
-  padding: 10%;
+  display: inline-grid;
+  grid-template-columns: 1fr 5fr;
+  gap: 5%;
+  align-items: center;
 }
 
 .greet div{
@@ -113,18 +112,17 @@ body{
   display: inline-grid;
   grid-template-columns: 1fr 1fr 1fr;
   justify-content: space-between;
-  gap: 5%;
+  gap: 7%;
+  width: 70%;
 }
 
 .actions button{
   background-color: blue;
   color: white;
   font-family: 'Courier New', Courier, monospace;
-  border-radius: 10px;
-  gap: 5%;
-  min-height: 5em;
+  border-radius: 20px;
+  min-height: 3.5em;
   border: none;
   padding-left: 10%;
   padding-right: 10%;
-  flex: 1 0 auto;
 }
